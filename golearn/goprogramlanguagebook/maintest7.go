@@ -45,11 +45,14 @@ func main() {
 }
 
 //处理响应 次数是返回请求的路径信息
+//todo 参数是什么意思呢
 func handler(w http.ResponseWriter, r *http.Request) {
 	mu.Lock()
 	count++
 	mu.Unlock()
 	fmt.Fprintf(w, "URL.path = %q\n", r.URL.Path)
+
+	//r.Method r.URL r.Proto r.Header 可能常用
 }
 
 //回显目前为止的调用次数
@@ -67,3 +70,21 @@ func counter(w http.ResponseWriter, r *http.Request) {
 	//defer mu.Unlock()
 	//	fmt.Println("还没结束")
 }
+
+/*
+这些程序中,我们看到了作为输出流的三种非常不同的类型。fetch程序复制HTTP响
+应到文件os. Stdout,像lissajous一样; fetchall程序通过将响应复制到iout1. Discard中
+进行丢弃(在统计其长度时):Web服务器使用fmt.Fprintf通过写入httpResponsewriter来
+让浏览器显示
+*/
+/*
+handler:=func(w http.Responsewriter, r *http.Request) {
+lissajous(w)
+}
+http.Handlefunc("/",handler)
+
+或者
+http.Handlefunc("/",func(w http.Responsewriter,r *http.Request){
+lissajous (w)
+})
+*/
