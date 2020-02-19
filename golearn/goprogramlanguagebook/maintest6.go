@@ -14,6 +14,7 @@ import (
 func main() {
 	start := time.Now()
 	//创建字符串通道
+	//todo channel 通道 待学习
 	ch := make(chan string)
 	for _, url := range os.Args[1:] {
 		//传进来几个网址 就开启几个goroutine
