@@ -1,6 +1,8 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+)
 
 //理解slice原理
 //我们此处定义一个appendInt 函数 类比 原生的append函数 理解其内部操作
@@ -16,6 +18,14 @@ func main() {
 
 		x = y
 	}
+
+	var a = []int{1, 2, 3, 4, 5, 6, 7}
+	var b = []int{1, 2, 3, 4, 5, 6, 7}
+	a = removeEasy(a, 3)
+	b = removeBaoShunXu(b, 3)
+	fmt.Println(a) //[1 2 3 7 5 6]
+	fmt.Println(b) //[1 2 3 5 6 7]
+
 }
 
 func appendInt(x []int, y int) []int {
@@ -55,4 +65,31 @@ func appendInt(x []int, y int) []int {
 	}
 	z[len(x)] = y
 	return z
+}
+
+//slice可以用来实现栈
+//func stackDemo()  {
+//	stack = make([]int,10,10)
+//
+//	stack = append(stack,v)  //相当于push v
+//	top := stack[len(stack) - 1] //栈顶
+//	//弹出最后一个  缩减栈
+//	stack = stack[:len(stack)-1] //pop
+//
+//}
+
+//如何移除一个slice中的某个元素
+//1.并且保持剩余元素顺序
+//利用copy 将高位向前移动
+func removeBaoShunXu(slice []int, i int) []int {
+	copy(slice[i:], slice[i+1:])
+
+	return slice[:len(slice)-1]
+}
+
+//2.不保持剩余元素顺序
+//直接将最后一个赋值给对应的索引
+func removeEasy(slice []int, i int) []int {
+	slice[i] = slice[len(slice)-1]
+	return slice[:len(slice)-1]
 }
