@@ -30,5 +30,17 @@ func main() {
 	ss := make([]int, 3)
 	ss[1] = 2
 	fmt.Println(ss[0], ss[1])
+	primes := [3]string{"nihao", "shijie", "sss"}
+	var sm []string = primes[1:2]
+	fmt.Println(sm[0])
+
+	var runes []rune
+	for _, r := range "hello,世界" {
+		//append 将元素追加到slice后面
+		//当然 应该直接[]rune("helloworld")
+		runes = append(runes, r)
+	}
+
+	fmt.Printf("%q\n", runes)
 
 }
