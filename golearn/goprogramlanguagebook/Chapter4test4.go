@@ -83,3 +83,8 @@ makemap 和 makeslice 的区别，带来一个不同点：当 map 和 slice 作�
 主要原因：一个是指针（*hmap），一个是结构体（slice）。Go 语言中的函数传参都是值传递，在函数内部，参数会被 copy 到本地。*hmap指针 copy 完之后，仍然指向同一个 map，因此函数内部对 map 的操作会影响实参。而 slice 被 copy 后，会成为一个新的 slice，对它进行的操作不会影响到实参。
 
 */
+/*map 不可比较 只可以和 nil比较  判断两个map是不是有相同的键值  需要些循环*/
+/*map   if age,ok := ages["bob"];!ok {xxxxxx}
+判断bob在不在map中
+* /
+*/
