@@ -37,7 +37,6 @@ func fetch(url string, ch chan<- string) {
 	}
 	//todo io.Copy 读取响应内容 写入discard输出流丢弃
 	nbytes, err := io.Copy(ioutil.Discard, resp.Body)
-
 	resp.Body.Close() //不要泄露资源
 	if err != nil {
 		ch <- fmt.Sprintf("while reding %s:%v", url, err) //发送到通道ch

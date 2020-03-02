@@ -1,5 +1,6 @@
 package main
 
+/*
 import (
 	"fmt"
 	"log"
@@ -20,3 +21,5 @@ func main() {
 	// Panicln 在调用 Println()之后会接着调用 panic()
 	log.Panicln("panic message")
 }
+
+*/
