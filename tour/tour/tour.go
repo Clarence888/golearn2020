@@ -375,11 +375,11 @@ func qiepian()  {
 	////切片的零值是 nil nil 切片的长度和容量为 0 且没有底层数组
 	//var s []int
 
-
+	//数组
 	primes := [6]int{2, 3, 5, 7, 11, 13}
 
 
-
+	//sm 是切片
 	var sm []int = primes[1:4]
 	fmt.Println(sm)
 
