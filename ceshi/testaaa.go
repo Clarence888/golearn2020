@@ -1,5 +1,7 @@
 package main
 
+import "fmt"
+
 /*
 import (
 	"fmt"
@@ -23,3 +25,17 @@ func main() {
 }
 
 */
+
+func main() {
+	A := 1
+	foo := func() {
+		A = 2  //将main函数的A变量 重新赋值
+		A := 3 //声明一个新变量 A 虽然同名 赋值为3
+		A = 4  // 将新声明的变量赋值为4
+		fmt.Println(A)
+	}
+	foo()
+	fmt.Println(A) //打印main函数中的变量A
+}
+
+// 4 2
