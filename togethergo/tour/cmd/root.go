@@ -13,6 +13,9 @@ func Execute() error  {
 }
 
 func init()  {
+	//每个子命令都需要到rootCmd注册
 	rootCmd.AddCommand(wordCmd)
+	rootCmd.AddCommand(timeCmd)
 }
+
 
