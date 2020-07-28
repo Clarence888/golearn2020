@@ -6,11 +6,11 @@ import (
 	_ "tour/internal/word"
 )
 
-func main()  {
+func main() {
 
 	err := cmd.Execute()
 	if err != nil {
-		log.Fatalf("cmd.Execute err: %v",err)
+		log.Fatalf("cmd.Execute err: %v", err)
 	}
 
 }
