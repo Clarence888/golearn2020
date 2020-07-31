@@ -1,0 +1,21 @@
+Server:
+  RunMode: debug
+  HttpPort: 9999
+  ReadTimeout: 60
+App:
+  DefaultPageSIze: 10
+  MaxPageSize: 100
+  LogSavePath: storage/logs
+  LogFileName: app
+  LogFileExt: .log
+Database:
+  DBType: mysql
+  Username: changliang
+  Password: changliang
+  Host: 211.159.180.243
+  DBName: blog_service
+  TablePrefix: blog_
+  Charset: utf8
+  ParseTime: True
+  MaxIdlnConns: 10
+  MaxOpenConns: 30
