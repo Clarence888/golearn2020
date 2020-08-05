@@ -1,9 +1,10 @@
 package v1
 
-import "github.com/gin-gonic/gin"
+import (
+	"github.com/gin-gonic/gin"
+)
 
 type Tag struct {
-
 }
 
 func NewTag() Tag {
@@ -11,7 +12,6 @@ func NewTag() Tag {
 }
 
 func (t Tag) Get(c *gin.Context) {
-
 }
 
 func (t Tag) List(c *gin.Context) {

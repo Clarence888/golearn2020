@@ -1,9 +1,12 @@
 package v1
 
-import "github.com/gin-gonic/gin"
+import (
+	"blog-service/pkg/app"
+	"blog-service/pkg/errcode"
+	"github.com/gin-gonic/gin"
+)
 
 type Article struct {
-
 }
 
 func NewArticle() Article {
@@ -11,7 +14,8 @@ func NewArticle() Article {
 }
 
 func (A Article) Get(c *gin.Context) {
-
+	app.NewResponse(c).ToErrorResponse(errcode.ServerError)
+	return
 }
 
 func (A Article) List(c *gin.Context) {

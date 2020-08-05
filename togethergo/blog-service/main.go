@@ -32,12 +32,12 @@ func init() {
 }
 
 func main() {
-	/* 简单版本
-	r := gin.Default()
-	r.GET("/ping", func(c *gin.Context) {
-		c.JSON(200,gin.H{"message":"pong"})
-	})
-	r.Run(":9999")
+	/*
+		r := gin.Default()
+		r.GET("/ping", func(c *gin.Context) {
+			c.JSON(200,gin.H{"message":"pongaaa"})
+		})
+		r.Run(":9999")
 	*/
 
 	/*演化版本
@@ -51,6 +51,7 @@ func main() {
 	}
 	*/
 	//修改版本
+
 	router := routers.NewRouter()
 	s := &http.Server{
 		Addr:           ":" + global.ServerSetting.HttpPort,
@@ -61,7 +62,7 @@ func main() {
 	}
 
 	//打印日志
-	//global.Logger.Infof("%s: togergo/%s","hello","blog-service")
+	global.Logger.Infof("%s: togergo/%s", "hello", "blog-service")
 
 	s.ListenAndServe()
 }
