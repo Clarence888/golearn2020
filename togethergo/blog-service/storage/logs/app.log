@@ -47,3 +47,13 @@
 2020/08/08 13:52:30 {"callers":["/Users/clarence/go/src/togethergo/blog-service/main.go: 27 main.init.0"],"level":"fatal","message":"app.BindAndValid errs: State必须是[0 1 2]中的一个","time":1596865950410760000}
 2020/08/08 13:52:30 {"callers":["/Users/clarence/go/src/togethergo/blog-service/main.go: 27 main.init.0"],"level":"fatal","message":"app.BindAndValid errs: State必须是[0 1 2]中的一个","time":1596865950611326000}
 2020/08/08 13:52:30 {"callers":["/Users/clarence/go/src/togethergo/blog-service/main.go: 27 main.init.0"],"level":"fatal","message":"app.BindAndValid errs: State必须是[0 1 2]中的一个","time":1596865950795234000}
+2020/08/08 14:50:27 {"callers":["/Users/clarence/go/src/togethergo/blog-service/main.go: 27 main.init.0"],"level":"fatal","message":"app.BindAndValid errs: State必须是[0 1 2]中的一个","time":1596869427689700000}
+2020/08/08 16:19:26 {"callers":["/Users/clarence/go/src/togethergo/blog-service/main.go: 27 main.init.0"],"level":"info","message":"hello: togergo/blog-service","time":1596874766902745000}
+2020/08/08 16:19:40 {"callers":["/Users/clarence/go/src/togethergo/blog-service/main.go: 27 main.init.0"],"level":"debug","message":"app.BindAndValid errs: State必须是[0 1]中的一个","time":1596874780756052000}
+2020/08/08 16:19:42 {"callers":["/Users/clarence/go/src/togethergo/blog-service/main.go: 27 main.init.0"],"level":"debug","message":"app.BindAndValid errs: State必须是[0 1]中的一个","time":1596874782054890000}
+2020/08/08 16:20:40 {"callers":["/Users/clarence/go/src/togethergo/blog-service/main.go: 27 main.init.0"],"level":"debug","message":"svc.CreateTag err: Error 1054: Unknown column 'delete_on' in 'field list'","time":1596874840395796000}
+2020/08/08 16:25:46 {"callers":["/Users/clarence/go/src/togethergo/blog-service/main.go: 27 main.init.0"],"level":"info","message":"hello: togergo/blog-service","time":1596875146209176000}
+2020/08/08 16:26:17 {"callers":["/Users/clarence/go/src/togethergo/blog-service/main.go: 27 main.init.0"],"level":"debug","message":"app.BindAndValid errs: State必须是[0 1]中的一个","time":1596875177109565000}
+2020/08/08 16:26:19 {"callers":["/Users/clarence/go/src/togethergo/blog-service/main.go: 27 main.init.0"],"level":"debug","message":"app.BindAndValid errs: State必须是[0 1]中的一个","time":1596875179454518000}
+2020/08/08 16:30:48 {"callers":["/Users/clarence/go/src/togethergo/blog-service/main.go: 27 main.init.0"],"level":"debug","message":"app.BindAndValid errs: Name长度必须至少为2个字符","time":1596875448146103000}
+2020/08/08 16:45:09 {"callers":["/Users/clarence/go/src/togethergo/blog-service/main.go: 27 main.init.0"],"level":"info","message":"hello: togergo/blog-service","time":1596876309444393000}

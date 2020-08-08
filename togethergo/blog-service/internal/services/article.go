@@ -1,4 +1,7 @@
 package services
+
+import "blog-service/internal/model"
+
 type ArticleRequest struct {
 	ID    uint32 `form:"id" binding:"required,gte=1"`
 	State uint8  `form:"state,default=1" binding:"oneof=0 1"`
@@ -44,6 +47,7 @@ type Article struct {
 	Tag           *model.Tag `json:"tag"`
 }
 
+/*
 func (svc *Service) GetArticle(param *ArticleRequest) (*Article, error) {
 	article, err := svc.dao.GetArticle(param.ID, param.State)
 	if err != nil {
@@ -153,3 +157,4 @@ func (svc *Service) DeleteArticle(param *DeleteArticleRequest) error {
 
 	return nil
 }
+*/

@@ -1,5 +1,8 @@
 package services
 
+/*
+处理标签模块的业务逻辑
+*/
 import (
 	"blog-service/internal/model"
 	"blog-service/pkg/app"
@@ -33,11 +36,11 @@ type DeleteTagRequest struct {
 }
 
 func (svc *Service) CountTag(param *CountTagRequest) (int, error) {
-	return svc.dao.CountTag(param.Name, param.State), nil
+	return svc.dao.CountTag(param.Name, param.State)
 }
 
 func (svc *Service) GetTagList(param *TagListRequest, pager *app.Pager) ([]*model.Tag, error) {
-	return svc.dao.GetTagList(param.Name, param.State, pager.Page, pager.PageSize), nil
+	return svc.dao.GetTagList(param.Name, param.State, pager.Page, pager.PageSize)
 }
 
 func (svc *Service) CreateTag(param *CreateTagRequest) error {

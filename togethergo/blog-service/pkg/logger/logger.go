@@ -194,6 +194,14 @@ func (l *Logger) Fatalf(format string, v ...interface{}) {
 	l.WithLevel(LevelFatal).OutPut(fmt.Sprintf(format, v...))
 }
 
+func (l *Logger) Error(ctx context.Context, v ...interface{}) {
+	l.WithContext(ctx).OutPut(fmt.Sprint(v...))
+}
+
+func (l *Logger) Errorf(ctx context.Context, format string, v ...interface{}) {
+	l.WithContext(ctx).OutPut(fmt.Sprintf(format, v...))
+}
+
 func (l *Logger) Panic(v ...interface{}) {
 	l.WithLevel(LevelPanic).OutPut(fmt.Sprint(v...))
 }
