@@ -1,8 +1,7 @@
 package v1
 
 import (
-	"blog-service/pkg/app"
-	"blog-service/pkg/errcode"
+	"fmt"
 	"github.com/gin-gonic/gin"
 )
 
@@ -14,7 +13,9 @@ func NewArticle() Article {
 }
 
 func (A Article) Get(c *gin.Context) {
-	app.NewResponse(c).ToErrorResponse(errcode.ServerError)
+	fmt.Println(c.Param("id"))   //获取传值的参数
+	fmt.Println(c.Query("name")) //获取拼接的query参数
+	//app.NewResponse(c).ToErrorResponse(errcode.ServerError)
 	return
 }
 

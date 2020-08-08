@@ -4,3 +4,46 @@
 2020/08/05 19:50:07 {"callers":["/Users/clarence/go/src/togethergo/blog-service/main.go: 27 main.init.0"],"level":"info","message":"hello: togergo/blog-service","time":1596628207754663000}
 2020/08/05 19:55:21 {"callers":["/Users/clarence/go/src/togethergo/blog-service/main.go: 27 main.init.0"],"level":"info","message":"hello: togergo/blog-service","time":1596628521117976000}
 2020/08/05 19:56:11 {"callers":["/Users/clarence/go/src/togethergo/blog-service/main.go: 27 main.init.0"],"level":"info","message":"hello: togergo/blog-service","time":1596628571068653000}
+2020/08/08 11:21:55 {"callers":["/Users/clarence/go/src/togethergo/blog-service/main.go: 27 main.init.0"],"level":"info","message":"hello: togergo/blog-service","time":1596856915194420000}
+2020/08/08 11:38:34 {"callers":["/Users/clarence/go/src/togethergo/blog-service/main.go: 27 main.init.0"],"level":"info","message":"hello: togergo/blog-service","time":1596857914783397000}
+2020/08/08 11:39:45 {"callers":["/Users/clarence/go/src/togethergo/blog-service/main.go: 27 main.init.0"],"level":"fatal","message":"app.BindAndValid errs: ","time":1596857985174230000}
+2020/08/08 11:39:46 {"callers":["/Users/clarence/go/src/togethergo/blog-service/main.go: 27 main.init.0"],"level":"fatal","message":"app.BindAndValid errs: ","time":1596857986410162000}
+2020/08/08 11:39:46 {"callers":["/Users/clarence/go/src/togethergo/blog-service/main.go: 27 main.init.0"],"level":"fatal","message":"app.BindAndValid errs: ","time":1596857986891767000}
+2020/08/08 11:42:36 {"callers":["/Users/clarence/go/src/togethergo/blog-service/main.go: 27 main.init.0"],"level":"info","message":"hello: togergo/blog-service","time":1596858156548367000}
+2020/08/08 11:43:44 {"callers":["/Users/clarence/go/src/togethergo/blog-service/main.go: 27 main.init.0"],"level":"info","message":"hello: togergo/blog-service","time":1596858224573767000}
+2020/08/08 11:46:02 {"callers":["/Users/clarence/go/src/togethergo/blog-service/main.go: 27 main.init.0"],"level":"info","message":"hello: togergo/blog-service","time":1596858362378139000}
+2020/08/08 11:47:19 {"callers":["/Users/clarence/go/src/togethergo/blog-service/main.go: 27 main.init.0"],"level":"info","message":"hello: togergo/blog-service","time":1596858439710773000}
+2020/08/08 11:49:11 {"callers":["/Users/clarence/go/src/togethergo/blog-service/main.go: 27 main.init.0"],"level":"info","message":"hello: togergo/blog-service","time":1596858551813923000}
+2020/08/08 11:50:15 {"callers":["/Users/clarence/go/src/togethergo/blog-service/main.go: 27 main.init.0"],"level":"info","message":"hello: togergo/blog-service","time":1596858615715837000}
+2020/08/08 11:50:42 {"callers":["/Users/clarence/go/src/togethergo/blog-service/main.go: 27 main.init.0"],"level":"fatal","message":"app.BindAndValid errs: ","time":1596858642640763000}
+2020/08/08 11:51:16 {"callers":["/Users/clarence/go/src/togethergo/blog-service/main.go: 27 main.init.0"],"level":"fatal","message":"app.BindAndValid errs: ","time":1596858676916284000}
+2020/08/08 11:52:47 {"callers":["/Users/clarence/go/src/togethergo/blog-service/main.go: 27 main.init.0"],"level":"info","message":"hello: togergo/blog-service","time":1596858767214796000}
+2020/08/08 11:53:16 {"callers":["/Users/clarence/go/src/togethergo/blog-service/main.go: 27 main.init.0"],"level":"info","message":"hello: togergo/blog-service","time":1596858796405127000}
+2020/08/08 11:54:56 {"callers":["/Users/clarence/go/src/togethergo/blog-service/main.go: 27 main.init.0"],"level":"info","message":"hello: togergo/blog-service","time":1596858896383561000}
+2020/08/08 11:56:21 {"callers":["/Users/clarence/go/src/togethergo/blog-service/main.go: 27 main.init.0"],"level":"info","message":"hello: togergo/blog-service","time":1596858981997034000}
+2020/08/08 11:56:59 {"callers":["/Users/clarence/go/src/togethergo/blog-service/main.go: 27 main.init.0"],"level":"info","message":"hello: togergo/blog-service","time":1596859019039433000}
+2020/08/08 11:57:34 {"callers":["/Users/clarence/go/src/togethergo/blog-service/main.go: 27 main.init.0"],"level":"info","message":"hello: togergo/blog-service","time":1596859054356167000}
+2020/08/08 11:57:56 {"callers":["/Users/clarence/go/src/togethergo/blog-service/main.go: 27 main.init.0"],"level":"info","message":"hello: togergo/blog-service","time":1596859076888116000}
+2020/08/08 11:59:01 {"callers":["/Users/clarence/go/src/togethergo/blog-service/main.go: 27 main.init.0"],"level":"info","message":"hello: togergo/blog-service","time":1596859141921544000}
+2020/08/08 12:00:51 {"callers":["/Users/clarence/go/src/togethergo/blog-service/main.go: 27 main.init.0"],"level":"info","message":"hello: togergo/blog-service","time":1596859251669454000}
+2020/08/08 12:01:12 {"callers":["/Users/clarence/go/src/togethergo/blog-service/main.go: 27 main.init.0"],"level":"info","message":"hello: togergo/blog-service","time":1596859272297862000}
+2020/08/08 12:01:45 {"callers":["/Users/clarence/go/src/togethergo/blog-service/main.go: 27 main.init.0"],"level":"info","message":"hello: togergo/blog-service","time":1596859305516828000}
+2020/08/08 13:37:31 {"callers":["/Users/clarence/go/src/togethergo/blog-service/main.go: 27 main.init.0"],"level":"info","message":"hello: togergo/blog-service","time":1596865051833844000}
+2020/08/08 13:40:28 {"callers":["/Users/clarence/go/src/togethergo/blog-service/main.go: 27 main.init.0"],"level":"info","message":"hello: togergo/blog-service","time":1596865228391497000}
+2020/08/08 13:41:09 {"callers":["/Users/clarence/go/src/togethergo/blog-service/main.go: 27 main.init.0"],"level":"info","message":"hello: togergo/blog-service","time":1596865269524995000}
+2020/08/08 13:43:20 {"callers":["/Users/clarence/go/src/togethergo/blog-service/main.go: 27 main.init.0"],"level":"info","message":"hello: togergo/blog-service","time":1596865400873565000}
+2020/08/08 13:44:11 {"callers":["/Users/clarence/go/src/togethergo/blog-service/main.go: 27 main.init.0"],"level":"info","message":"hello: togergo/blog-service","time":1596865451183392000}
+2020/08/08 13:44:37 {"callers":["/Users/clarence/go/src/togethergo/blog-service/main.go: 27 main.init.0"],"level":"info","message":"hello: togergo/blog-service","time":1596865477056328000}
+2020/08/08 13:45:55 {"callers":["/Users/clarence/go/src/togethergo/blog-service/main.go: 27 main.init.0"],"level":"info","message":"hello: togergo/blog-service","time":1596865555255226000}
+2020/08/08 13:47:49 {"callers":["/Users/clarence/go/src/togethergo/blog-service/main.go: 27 main.init.0"],"level":"info","message":"hello: togergo/blog-service","time":1596865669341370000}
+2020/08/08 13:48:51 {"callers":["/Users/clarence/go/src/togethergo/blog-service/main.go: 27 main.init.0"],"level":"info","message":"hello: togergo/blog-service","time":1596865731099959000}
+2020/08/08 13:49:18 {"callers":["/Users/clarence/go/src/togethergo/blog-service/main.go: 27 main.init.0"],"level":"info","message":"hello: togergo/blog-service","time":1596865758021545000}
+2020/08/08 13:50:40 {"callers":["/Users/clarence/go/src/togethergo/blog-service/main.go: 27 main.init.0"],"level":"info","message":"hello: togergo/blog-service","time":1596865840922380000}
+2020/08/08 13:51:17 {"callers":["/Users/clarence/go/src/togethergo/blog-service/main.go: 27 main.init.0"],"level":"info","message":"hello: togergo/blog-service","time":1596865877199059000}
+2020/08/08 13:51:54 {"callers":["/Users/clarence/go/src/togethergo/blog-service/main.go: 27 main.init.0"],"level":"info","message":"hello: togergo/blog-service","time":1596865914027391000}
+2020/08/08 13:52:26 {"callers":["/Users/clarence/go/src/togethergo/blog-service/main.go: 27 main.init.0"],"level":"info","message":"hello: togergo/blog-service","time":1596865946333230000}
+2020/08/08 13:52:28 {"callers":["/Users/clarence/go/src/togethergo/blog-service/main.go: 27 main.init.0"],"level":"fatal","message":"app.BindAndValid errs: State必须是[0 1 2]中的一个","time":1596865948711564000}
+2020/08/08 13:52:29 {"callers":["/Users/clarence/go/src/togethergo/blog-service/main.go: 27 main.init.0"],"level":"fatal","message":"app.BindAndValid errs: State必须是[0 1 2]中的一个","time":1596865949947847000}
+2020/08/08 13:52:30 {"callers":["/Users/clarence/go/src/togethergo/blog-service/main.go: 27 main.init.0"],"level":"fatal","message":"app.BindAndValid errs: State必须是[0 1 2]中的一个","time":1596865950410760000}
+2020/08/08 13:52:30 {"callers":["/Users/clarence/go/src/togethergo/blog-service/main.go: 27 main.init.0"],"level":"fatal","message":"app.BindAndValid errs: State必须是[0 1 2]中的一个","time":1596865950611326000}
+2020/08/08 13:52:30 {"callers":["/Users/clarence/go/src/togethergo/blog-service/main.go: 27 main.init.0"],"level":"fatal","message":"app.BindAndValid errs: State必须是[0 1 2]中的一个","time":1596865950795234000}

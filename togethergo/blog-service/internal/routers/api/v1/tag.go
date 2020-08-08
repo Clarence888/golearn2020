@@ -1,6 +1,10 @@
 package v1
 
 import (
+	"blog-service/global"
+	"blog-service/pkg/app"
+	"blog-service/pkg/errcode"
+	"fmt"
 	"github.com/gin-gonic/gin"
 )
 
@@ -12,10 +16,26 @@ func NewTag() Tag {
 }
 
 func (t Tag) Get(c *gin.Context) {
+	fmt.Println(c.Get("state"))
 }
 
 func (t Tag) List(c *gin.Context) {
 
+	param := struct {
+		Name  string `form:"name" binding:"max=100"`
+		State uint8  `form:"state,default=1" binding:"oneof=0 1 2"`
+	}{}
+	response := app.NewResponse(c)
+
+	valid, errs := app.BindAndValid(c, &param)
+	if valid != true {
+		global.Logger.Fatalf("app.BindAndValid errs: %v", errs)
+		response.ToErrorResponse(errcode.InvalidParams.WithDetails(errs.Errors()...))
+		return
+	}
+
+	response.ToResponse(gin.H{})
+	return
 }
 
 func (t Tag) Create(c *gin.Context) {
