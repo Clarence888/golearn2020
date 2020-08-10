@@ -6,7 +6,6 @@ import (
 	"blog-service/pkg/app"
 	"blog-service/pkg/convert"
 	"blog-service/pkg/errcode"
-	"fmt"
 	"github.com/gin-gonic/gin"
 )
 
@@ -18,7 +17,9 @@ func NewTag() Tag {
 }
 
 func (t Tag) Get(c *gin.Context) {
-	fmt.Println(c.Get("state"))
+	response := app.NewResponse(c)
+	response.ToResponse(12)
+	return
 }
 
 func (t Tag) List(c *gin.Context) {

@@ -56,9 +56,9 @@ func main() {
 	s := &http.Server{
 		Addr:           ":" + global.ServerSetting.HttpPort,
 		Handler:        router,
-		ReadTimeout:    global.ServerSetting.ReadTimeout,
-		WriteTimeout:   global.ServerSetting.WriteTimeout,
-		MaxHeaderBytes: 1 << 20,
+		ReadTimeout:    global.ServerSetting.ReadTimeout,  //允许读取的最大时间
+		WriteTimeout:   global.ServerSetting.WriteTimeout, //允许写入最大时间
+		MaxHeaderBytes: 1 << 20,                           //请求头最大字节数
 	}
 
 	//打印日志

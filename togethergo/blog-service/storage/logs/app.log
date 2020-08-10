@@ -57,3 +57,13 @@
 2020/08/08 16:26:19 {"callers":["/Users/clarence/go/src/togethergo/blog-service/main.go: 27 main.init.0"],"level":"debug","message":"app.BindAndValid errs: State必须是[0 1]中的一个","time":1596875179454518000}
 2020/08/08 16:30:48 {"callers":["/Users/clarence/go/src/togethergo/blog-service/main.go: 27 main.init.0"],"level":"debug","message":"app.BindAndValid errs: Name长度必须至少为2个字符","time":1596875448146103000}
 2020/08/08 16:45:09 {"callers":["/Users/clarence/go/src/togethergo/blog-service/main.go: 27 main.init.0"],"level":"info","message":"hello: togergo/blog-service","time":1596876309444393000}
+2020/08/08 19:14:23 {"callers":["/Users/clarence/go/src/togethergo/blog-service/main.go: 27 main.init.0"],"level":"info","message":"hello: togergo/blog-service","time":1596885263789451000}
+2020/08/08 19:16:36 {"callers":["/Users/clarence/go/src/togethergo/blog-service/main.go: 27 main.init.0"],"level":"info","message":"hello: togergo/blog-service","time":1596885396997855000}
+2020/08/10 10:50:06 {"callers":["/Users/clarence/go/src/togethergo/blog-service/main.go: 27 main.init.0"],"level":"info","message":"hello: togergo/blog-service","time":1597027806766617000}
+2020/08/10 11:08:03 {"callers":["/Users/clarence/go/src/togethergo/blog-service/main.go: 27 main.init.0"],"level":"info","message":"hello: togergo/blog-service","time":1597028883624564000}
+2020/08/10 11:10:18 {"callers":["/Users/clarence/go/src/togethergo/blog-service/main.go: 27 main.init.0"],"level":"info","message":"hello: togergo/blog-service","time":1597029018422294000}
+2020/08/10 11:17:34 {"callers":["/Users/clarence/go/src/togethergo/blog-service/main.go: 27 main.init.0"],"level":"info","message":"hello: togergo/blog-service","time":1597029454983934000}
+2020/08/10 11:18:13 {"callers":["/Users/clarence/go/src/togethergo/blog-service/main.go: 27 main.init.0"],"level":"debug","message":"svc.CountTag err: dial tcp 211.159.180.243:3306: connect: operation timed out","time":1597029493673003000}
+2020/08/10 11:18:39 {"callers":["/Users/clarence/go/src/togethergo/blog-service/main.go: 27 main.init.0"],"level":"info","message":"hello: togergo/blog-service","time":1597029519604276000}
+2020/08/10 11:18:48 {"callers":["/Users/clarence/go/src/togethergo/blog-service/main.go: 27 main.init.0"],"level":"info","message":"hello: togergo/blog-service","time":1597029528232816000}
+2020/08/10 11:19:37 {"callers":["/Users/clarence/go/src/togethergo/blog-service/main.go: 27 main.init.0"],"level":"info","message":"hello: togergo/blog-service","time":1597029577284377000}
