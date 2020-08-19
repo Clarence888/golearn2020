@@ -67,3 +67,4 @@
 2020/08/10 11:18:39 {"callers":["/Users/clarence/go/src/togethergo/blog-service/main.go: 27 main.init.0"],"level":"info","message":"hello: togergo/blog-service","time":1597029519604276000}
 2020/08/10 11:18:48 {"callers":["/Users/clarence/go/src/togethergo/blog-service/main.go: 27 main.init.0"],"level":"info","message":"hello: togergo/blog-service","time":1597029528232816000}
 2020/08/10 11:19:37 {"callers":["/Users/clarence/go/src/togethergo/blog-service/main.go: 27 main.init.0"],"level":"info","message":"hello: togergo/blog-service","time":1597029577284377000}
+2020/08/10 11:46:49 {"callers":["/Users/clarence/go/src/togethergo/blog-service/main.go: 27 main.init.0"],"level":"info","message":"hello: togergo/blog-service","time":1597031209342629000}
