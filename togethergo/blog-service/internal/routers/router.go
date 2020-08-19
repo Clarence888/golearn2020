@@ -2,6 +2,7 @@ package routers
 
 import (
 	"blog-service/internal/middleware"
+	"blog-service/internal/routers/api"
 	v1 "blog-service/internal/routers/api/v1"
 	"github.com/gin-gonic/gin"
 )
@@ -16,6 +17,10 @@ func NewRouter() *gin.Engine {
 
 	tag := v1.NewTag()
 	article := v1.NewArticle()
+
+	upload := api.NewUpload()
+
+	r.POST("/upload/file", upload.UploadFile)
 
 	apiv1 := r.Group("api/v1")
 	{
@@ -38,3 +43,8 @@ func NewRouter() *gin.Engine {
 
 	return r
 }
+
+/*
+curl -X POST http://127.0.0.1:9999/upload/file -F file=@hello.jpeg -F  type=2
+{"code":2003001,"details":["file suffix is not supported"],"msg":"上传文件失败"}
+*/

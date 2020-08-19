@@ -68,3 +68,46 @@
 2020/08/10 11:18:48 {"callers":["/Users/clarence/go/src/togethergo/blog-service/main.go: 27 main.init.0"],"level":"info","message":"hello: togergo/blog-service","time":1597029528232816000}
 2020/08/10 11:19:37 {"callers":["/Users/clarence/go/src/togethergo/blog-service/main.go: 27 main.init.0"],"level":"info","message":"hello: togergo/blog-service","time":1597029577284377000}
 2020/08/10 11:46:49 {"callers":["/Users/clarence/go/src/togethergo/blog-service/main.go: 27 main.init.0"],"level":"info","message":"hello: togergo/blog-service","time":1597031209342629000}
+2020/08/19 15:52:07 {"callers":["/Users/clarence/go/src/togethergo/blog-service/main.go: 27 main.init.0"],"level":"info","message":"hello: togergo/blog-service","time":1597823527465463000}
+2020/08/19 16:31:58 {"callers":["/Users/clarence/go/src/togethergo/blog-service/main.go: 27 main.init.0"],"level":"debug","message":"app.BindAndValid errs: Name为必填字段,CreatedBy为必填字段","time":1597825918138098000}
+2020/08/19 20:17:07 {"callers":["/Users/clarence/go/src/togethergo/blog-service/main.go: 27 main.init.0"],"level":"info","message":"hello: togergo/blog-service","time":1597839427444859000}
+2020/08/19 20:24:07 {"callers":["/Users/clarence/go/src/togethergo/blog-service/main.go: 27 main.init.0"],"level":"debug","message":"svc.UploadFile err: file suffix is not supported","time":1597839847848337000}
+2020/08/19 20:24:29 {"callers":["/Users/clarence/go/src/togethergo/blog-service/main.go: 27 main.init.0"],"level":"debug","message":"svc.UploadFile err: file suffix is not supported","time":1597839869940128000}
+2020/08/19 20:25:22 {"callers":["/Users/clarence/go/src/togethergo/blog-service/main.go: 27 main.init.0"],"level":"info","message":"hello: togergo/blog-service","time":1597839922773720000}
+2020/08/19 20:28:04 {"callers":["/Users/clarence/go/src/togethergo/blog-service/main.go: 27 main.init.0"],"level":"info","message":"hello: togergo/blog-service","time":1597840084250098000}
+2020/08/19 20:28:10 {"callers":["/Users/clarence/go/src/togethergo/blog-service/main.go: 27 main.init.0"],"level":"debug","message":"svc.UploadFile err: file suffix is not supported","time":1597840090520557000}
+2020/08/19 20:28:13 {"callers":["/Users/clarence/go/src/togethergo/blog-service/main.go: 27 main.init.0"],"level":"debug","message":"svc.UploadFile err: file suffix is not supported","time":1597840093888669000}
+2020/08/19 20:28:16 {"callers":["/Users/clarence/go/src/togethergo/blog-service/main.go: 27 main.init.0"],"level":"debug","message":"svc.UploadFile err: file suffix is not supported","time":1597840096427154000}
+2020/08/19 20:29:52 {"callers":["/Users/clarence/go/src/togethergo/blog-service/main.go: 27 main.init.0"],"level":"info","message":"hello: togergo/blog-service","time":1597840192351116000}
+2020/08/19 20:29:54 {"callers":["/Users/clarence/go/src/togethergo/blog-service/main.go: 27 main.init.0"],"level":"debug","message":"svc.UploadFile err: file suffix is not supported","time":1597840194841131000}
+2020/08/19 20:29:58 {"callers":["/Users/clarence/go/src/togethergo/blog-service/main.go: 27 main.init.0"],"level":"debug","message":"svc.UploadFile err: file suffix is not supported","time":1597840198450695000}
+2020/08/19 20:29:59 {"callers":["/Users/clarence/go/src/togethergo/blog-service/main.go: 27 main.init.0"],"level":"debug","message":"svc.UploadFile err: file suffix is not supported","time":1597840199251889000}
+2020/08/19 20:29:59 {"callers":["/Users/clarence/go/src/togethergo/blog-service/main.go: 27 main.init.0"],"level":"debug","message":"svc.UploadFile err: file suffix is not supported","time":1597840199939450000}
+2020/08/19 20:30:00 {"callers":["/Users/clarence/go/src/togethergo/blog-service/main.go: 27 main.init.0"],"level":"debug","message":"svc.UploadFile err: file suffix is not supported","time":1597840200572158000}
+2020/08/19 20:30:32 {"callers":["/Users/clarence/go/src/togethergo/blog-service/main.go: 27 main.init.0"],"level":"info","message":"hello: togergo/blog-service","time":1597840232562662000}
+2020/08/19 20:30:45 {"callers":["/Users/clarence/go/src/togethergo/blog-service/main.go: 27 main.init.0"],"level":"debug","message":"svc.UploadFile err: file suffix is not supported","time":1597840245267646000}
+2020/08/19 20:30:47 {"callers":["/Users/clarence/go/src/togethergo/blog-service/main.go: 27 main.init.0"],"level":"debug","message":"svc.UploadFile err: file suffix is not supported","time":1597840247376667000}
+2020/08/19 20:31:43 {"callers":["/Users/clarence/go/src/togethergo/blog-service/main.go: 27 main.init.0"],"level":"info","message":"hello: togergo/blog-service","time":1597840303805468000}
+2020/08/19 20:32:02 {"callers":["/Users/clarence/go/src/togethergo/blog-service/main.go: 27 main.init.0"],"level":"info","message":"hello: togergo/blog-service","time":1597840322690500000}
+2020/08/19 20:32:05 {"callers":["/Users/clarence/go/src/togethergo/blog-service/main.go: 27 main.init.0"],"level":"debug","message":"svc.UploadFile err: file suffix is not supported","time":1597840325507072000}
+2020/08/19 20:32:06 {"callers":["/Users/clarence/go/src/togethergo/blog-service/main.go: 27 main.init.0"],"level":"debug","message":"svc.UploadFile err: file suffix is not supported","time":1597840326347896000}
+2020/08/19 20:32:07 {"callers":["/Users/clarence/go/src/togethergo/blog-service/main.go: 27 main.init.0"],"level":"debug","message":"svc.UploadFile err: file suffix is not supported","time":1597840327025269000}
+2020/08/19 20:32:37 {"callers":["/Users/clarence/go/src/togethergo/blog-service/main.go: 27 main.init.0"],"level":"debug","message":"svc.UploadFile err: file suffix is not supported","time":1597840357678639000}
+2020/08/19 20:35:35 {"callers":["/Users/clarence/go/src/togethergo/blog-service/main.go: 27 main.init.0"],"level":"info","message":"hello: togergo/blog-service","time":1597840535410016000}
+2020/08/19 20:35:37 {"callers":["/Users/clarence/go/src/togethergo/blog-service/main.go: 27 main.init.0"],"level":"debug","message":"svc.UploadFile err: file suffix is not supported","time":1597840537626406000}
+2020/08/19 20:35:38 {"callers":["/Users/clarence/go/src/togethergo/blog-service/main.go: 27 main.init.0"],"level":"debug","message":"svc.UploadFile err: file suffix is not supported","time":1597840538975414000}
+2020/08/19 20:35:39 {"callers":["/Users/clarence/go/src/togethergo/blog-service/main.go: 27 main.init.0"],"level":"debug","message":"svc.UploadFile err: file suffix is not supported","time":1597840539838834000}
+2020/08/19 20:36:16 {"callers":["/Users/clarence/go/src/togethergo/blog-service/main.go: 27 main.init.0"],"level":"info","message":"hello: togergo/blog-service","time":1597840576089780000}
+2020/08/19 20:36:21 {"callers":["/Users/clarence/go/src/togethergo/blog-service/main.go: 27 main.init.0"],"level":"debug","message":"svc.UploadFile err: file suffix is not supported","time":1597840581055868000}
+2020/08/19 20:36:22 {"callers":["/Users/clarence/go/src/togethergo/blog-service/main.go: 27 main.init.0"],"level":"debug","message":"svc.UploadFile err: file suffix is not supported","time":1597840582325780000}
+2020/08/19 20:37:13 {"callers":["/Users/clarence/go/src/togethergo/blog-service/main.go: 27 main.init.0"],"level":"info","message":"hello: togergo/blog-service","time":1597840633567750000}
+2020/08/19 20:37:17 {"callers":["/Users/clarence/go/src/togethergo/blog-service/main.go: 27 main.init.0"],"level":"debug","message":"svc.UploadFile err: file suffix is not supported","time":1597840637353993000}
+2020/08/19 20:37:41 {"callers":["/Users/clarence/go/src/togethergo/blog-service/main.go: 27 main.init.0"],"level":"info","message":"hello: togergo/blog-service","time":1597840661829790000}
+2020/08/19 20:37:43 {"callers":["/Users/clarence/go/src/togethergo/blog-service/main.go: 27 main.init.0"],"level":"debug","message":"svc.UploadFile err: file suffix is not supported","time":1597840663456243000}
+2020/08/19 20:37:46 {"callers":["/Users/clarence/go/src/togethergo/blog-service/main.go: 27 main.init.0"],"level":"debug","message":"svc.UploadFile err: file suffix is not supported","time":1597840666885818000}
+2020/08/19 20:37:48 {"callers":["/Users/clarence/go/src/togethergo/blog-service/main.go: 27 main.init.0"],"level":"debug","message":"svc.UploadFile err: file suffix is not supported","time":1597840668464654000}
+2020/08/19 20:37:49 {"callers":["/Users/clarence/go/src/togethergo/blog-service/main.go: 27 main.init.0"],"level":"debug","message":"svc.UploadFile err: file suffix is not supported","time":1597840669476149000}
+2020/08/19 20:37:50 {"callers":["/Users/clarence/go/src/togethergo/blog-service/main.go: 27 main.init.0"],"level":"debug","message":"svc.UploadFile err: file suffix is not supported","time":1597840670402389000}
+2020/08/19 20:39:06 {"callers":["/Users/clarence/go/src/togethergo/blog-service/main.go: 27 main.init.0"],"level":"info","message":"hello: togergo/blog-service","time":1597840746951376000}
+2020/08/19 20:39:44 {"callers":["/Users/clarence/go/src/togethergo/blog-service/main.go: 27 main.init.0"],"level":"info","message":"hello: togergo/blog-service","time":1597840784077985000}
+2020/08/19 20:40:16 {"callers":["/Users/clarence/go/src/togethergo/blog-service/main.go: 27 main.init.0"],"level":"debug","message":"svc.UploadFile err: file suffix is not supported","time":1597840816666572000}

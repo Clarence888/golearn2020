@@ -25,6 +25,8 @@ func GetFileName(name string) string {
 	ext := GetFileExt(name)
 	fileName := strings.TrimSuffix(name, ext)
 	fileName = util.EncodeMD5(fileName)
+
+	return fileName + ext
 }
 
 func GetFileExt(name string) string {
@@ -44,13 +46,15 @@ func CheckSavePath(dst string) bool {
 
 func CheckContainExt(t FileType, name string) bool {
 	ext := GetFileExt(name)
+	ext = strings.ToUpper(ext)
 	switch t {
 	case TypeImage:
 		for _, allowExt := range global.AppSetting.UploadImageAllowExts {
-			if strings.ToUpper(allowExt) == strings.ToUpper(ext) {
+			if strings.ToUpper(allowExt) == ext {
 				return true
 			}
 		}
+
 	}
 
 	return false
@@ -84,7 +88,7 @@ func CreateSavePath(dst string, perm os.FileMode) error {
 	return nil
 }
 
-func SaveFile(file *mutipart.FileHeader, dst string) error {
+func SaveFile(file *multipart.FileHeader, dst string) error {
 	src, err := file.Open()
 	if err != nil {
 		return err
