@@ -1,10 +1,12 @@
 package routers
 
 import (
+	"blog-service/global"
 	"blog-service/internal/middleware"
 	"blog-service/internal/routers/api"
 	v1 "blog-service/internal/routers/api/v1"
 	"github.com/gin-gonic/gin"
+	"net/http"
 )
 
 func NewRouter() *gin.Engine {
@@ -21,6 +23,12 @@ func NewRouter() *gin.Engine {
 	upload := api.NewUpload()
 
 	r.POST("/upload/file", upload.UploadFile)
+
+	//访问静态资源
+	r.StaticFS("/static",http.Dir(global.AppSetting.UploadSavePath))
+
+	r.GET("/auth",v1.GetAuth)
+
 
 	apiv1 := r.Group("api/v1")
 	{

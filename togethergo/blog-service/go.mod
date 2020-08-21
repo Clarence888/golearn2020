@@ -4,6 +4,7 @@ go 1.14
 
 require (
 	github.com/Go-zh/tools v0.0.0-20190318102628-d7df357d3e99
+	github.com/dgrijalva/jwt-go v3.2.0+incompatible
 	github.com/fsnotify/fsnotify v1.4.9 // indirect
 	github.com/gin-contrib/sse v0.1.0
 	github.com/gin-gonic/gin v1.6.3

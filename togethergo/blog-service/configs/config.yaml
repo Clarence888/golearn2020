@@ -27,3 +27,8 @@ Database:
   MaxIdleConns: 100
   MaxOpenConns: 3000
   #ConnMaxLifetime: 300
+
+JWT:
+  secret: lalala
+  Issuer: changliang
+  Expire: 7200

@@ -1,6 +1,7 @@
 package app
 
 import (
+	"fmt"
 	"github.com/gin-gonic/gin"
 	ut "github.com/go-playground/universal-translator"
 	val "github.com/go-playground/validator/v10"
@@ -43,6 +44,8 @@ func BindAndValid(c *gin.Context, v interface{}) (bool, ValidErrors) {
 		}
 
 		for key, value := range veers.Translate(trans) {
+			fmt.Println(key)
+			fmt.Println(value)
 			errs = append(errs, &ValidError{
 				Key:     key,
 				Message: value,

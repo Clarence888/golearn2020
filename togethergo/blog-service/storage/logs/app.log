@@ -111,3 +111,121 @@
 2020/08/19 20:39:06 {"callers":["/Users/clarence/go/src/togethergo/blog-service/main.go: 27 main.init.0"],"level":"info","message":"hello: togergo/blog-service","time":1597840746951376000}
 2020/08/19 20:39:44 {"callers":["/Users/clarence/go/src/togethergo/blog-service/main.go: 27 main.init.0"],"level":"info","message":"hello: togergo/blog-service","time":1597840784077985000}
 2020/08/19 20:40:16 {"callers":["/Users/clarence/go/src/togethergo/blog-service/main.go: 27 main.init.0"],"level":"debug","message":"svc.UploadFile err: file suffix is not supported","time":1597840816666572000}
+2020/08/20 10:31:15 {"callers":["/Users/clarence/go/src/togethergo/blog-service/main.go: 27 main.init.0"],"level":"info","message":"hello: togergo/blog-service","time":1597890675196588000}
+2020/08/20 10:31:45 {"callers":["/Users/clarence/go/src/togethergo/blog-service/main.go: 27 main.init.0"],"level":"info","message":"hello: togergo/blog-service","time":1597890705178478000}
+2020/08/20 10:31:55 {"callers":["/Users/clarence/go/src/togethergo/blog-service/main.go: 27 main.init.0"],"level":"info","message":"hello: togergo/blog-service","time":1597890715955731000}
+2020/08/20 10:32:24 {"callers":["/Users/clarence/go/src/togethergo/blog-service/main.go: 27 main.init.0"],"level":"info","message":"hello: togergo/blog-service","time":1597890744479940000}
+2020/08/20 13:52:25 {"callers":["/Users/clarence/go/src/togethergo/blog-service/main.go: 27 main.init.0"],"level":"info","message":"hello: togergo/blog-service","time":1597902745540471000}
+2020/08/21 14:32:55 {"callers":["/Users/clarence/go/src/togethergo/blog-service/main.go: 27 main.init.0"],"level":"info","message":"hello: togergo/blog-service","time":1597991575848455000}
+2020/08/21 14:34:53 {"callers":["/Users/clarence/go/src/togethergo/blog-service/main.go: 27 main.init.0"],"level":"debug","message":"app.BindAndValid errs: ","time":1597991693601048000}
+2020/08/21 14:35:28 {"callers":["/Users/clarence/go/src/togethergo/blog-service/main.go: 27 main.init.0"],"level":"debug","message":"app.BindAndValid errs: ","time":1597991728900960000}
+2020/08/21 14:36:37 {"callers":["/Users/clarence/go/src/togethergo/blog-service/main.go: 27 main.init.0"],"level":"info","message":"hello: togergo/blog-service","time":1597991797934207000}
+2020/08/21 14:36:39 {"callers":["/Users/clarence/go/src/togethergo/blog-service/main.go: 27 main.init.0"],"level":"debug","message":"app.BindAndValid errs: ","time":1597991799209049000}
+2020/08/21 14:37:40 {"callers":["/Users/clarence/go/src/togethergo/blog-service/main.go: 27 main.init.0"],"level":"debug","message":"app.BindAndValid errs: ","time":1597991860453181000}
+2020/08/21 14:38:55 {"callers":["/Users/clarence/go/src/togethergo/blog-service/main.go: 27 main.init.0"],"level":"info","message":"hello: togergo/blog-service","time":1597991935061267000}
+2020/08/21 14:38:55 {"callers":["/Users/clarence/go/src/togethergo/blog-service/main.go: 27 main.init.0"],"level":"debug","message":"app.BindAndValid errs: ","time":1597991935464030000}
+2020/08/21 14:38:57 {"callers":["/Users/clarence/go/src/togethergo/blog-service/main.go: 27 main.init.0"],"level":"debug","message":"app.BindAndValid errs: ","time":1597991937044341000}
+2020/08/21 14:38:58 {"callers":["/Users/clarence/go/src/togethergo/blog-service/main.go: 27 main.init.0"],"level":"debug","message":"app.BindAndValid errs: ","time":1597991938022584000}
+2020/08/21 14:38:58 {"callers":["/Users/clarence/go/src/togethergo/blog-service/main.go: 27 main.init.0"],"level":"debug","message":"app.BindAndValid errs: ","time":1597991938732690000}
+2020/08/21 14:38:59 {"callers":["/Users/clarence/go/src/togethergo/blog-service/main.go: 27 main.init.0"],"level":"debug","message":"app.BindAndValid errs: ","time":1597991939531483000}
+2020/08/21 14:41:26 {"callers":["/Users/clarence/go/src/togethergo/blog-service/main.go: 27 main.init.0"],"level":"info","message":"hello: togergo/blog-service","time":1597992086919136000}
+2020/08/21 14:41:28 {"callers":["/Users/clarence/go/src/togethergo/blog-service/main.go: 27 main.init.0"],"level":"debug","message":"app.BindAndValid errs: ","time":1597992088927511000}
+2020/08/21 14:41:30 {"callers":["/Users/clarence/go/src/togethergo/blog-service/main.go: 27 main.init.0"],"level":"debug","message":"app.BindAndValid errs: ","time":1597992090348304000}
+2020/08/21 14:41:31 {"callers":["/Users/clarence/go/src/togethergo/blog-service/main.go: 27 main.init.0"],"level":"debug","message":"app.BindAndValid errs: ","time":1597992091247266000}
+2020/08/21 14:41:32 {"callers":["/Users/clarence/go/src/togethergo/blog-service/main.go: 27 main.init.0"],"level":"debug","message":"app.BindAndValid errs: ","time":1597992092160503000}
+2020/08/21 14:42:14 {"callers":["/Users/clarence/go/src/togethergo/blog-service/main.go: 27 main.init.0"],"level":"info","message":"hello: togergo/blog-service","time":1597992134202700000}
+2020/08/21 14:42:21 {"callers":["/Users/clarence/go/src/togethergo/blog-service/main.go: 27 main.init.0"],"level":"debug","message":"app.BindAndValid errs: ","time":1597992141280663000}
+2020/08/21 14:42:24 {"callers":["/Users/clarence/go/src/togethergo/blog-service/main.go: 27 main.init.0"],"level":"debug","message":"app.BindAndValid errs: ","time":1597992144011152000}
+2020/08/21 14:43:18 {"callers":["/Users/clarence/go/src/togethergo/blog-service/main.go: 27 main.init.0"],"level":"debug","message":"app.BindAndValid errs: ","time":1597992198391624000}
+2020/08/21 14:43:49 {"callers":["/Users/clarence/go/src/togethergo/blog-service/main.go: 27 main.init.0"],"level":"info","message":"hello: togergo/blog-service","time":1597992229931982000}
+2020/08/21 14:45:26 {"callers":["/Users/clarence/go/src/togethergo/blog-service/main.go: 27 main.init.0"],"level":"info","message":"hello: togergo/blog-service","time":1597992326784760000}
+2020/08/21 14:46:54 {"callers":["/Users/clarence/go/src/togethergo/blog-service/main.go: 27 main.init.0"],"level":"debug","message":"app.BindAndValid errs: ","time":1597992414001955000}
+2020/08/21 14:47:05 {"callers":["/Users/clarence/go/src/togethergo/blog-service/main.go: 27 main.init.0"],"level":"info","message":"hello: togergo/blog-service","time":1597992425914299000}
+2020/08/21 14:54:25 {"callers":["/Users/clarence/go/src/togethergo/blog-service/main.go: 27 main.init.0"],"level":"info","message":"hello: togergo/blog-service","time":1597992865703614000}
+2020/08/21 15:10:58 {"callers":["/Users/clarence/go/src/togethergo/blog-service/main.go: 27 main.init.0"],"level":"info","message":"hello: togergo/blog-service","time":1597993858366976000}
+2020/08/21 15:11:15 {"callers":["/Users/clarence/go/src/togethergo/blog-service/main.go: 27 main.init.0"],"level":"debug","message":"app.GenerateToken err key is of invalid type","time":1597993875125971000}
+2020/08/21 15:11:28 {"callers":["/Users/clarence/go/src/togethergo/blog-service/main.go: 27 main.init.0"],"level":"debug","message":"app.GenerateToken err key is of invalid type","time":1597993888300519000}
+2020/08/21 15:11:29 {"callers":["/Users/clarence/go/src/togethergo/blog-service/main.go: 27 main.init.0"],"level":"debug","message":"app.GenerateToken err key is of invalid type","time":1597993889814379000}
+2020/08/21 15:18:11 {"callers":["/Users/clarence/go/src/togethergo/blog-service/main.go: 27 main.init.0"],"level":"info","message":"hello: togergo/blog-service","time":1597994291384657000}
+2020/08/21 15:20:34 {"callers":["/Users/clarence/go/src/togethergo/blog-service/main.go: 27 main.init.0"],"level":"info","message":"hello: togergo/blog-service","time":1597994434286644000}
+2020/08/21 15:21:29 {"callers":["/Users/clarence/go/src/togethergo/blog-service/main.go: 27 main.init.0"],"level":"info","message":"hello: togergo/blog-service","time":1597994489320826000}
+2020/08/21 15:21:31 {"callers":["/Users/clarence/go/src/togethergo/blog-service/main.go: 27 main.init.0"],"level":"debug","message":"app.GenerateToken err key is of invalid type","time":1597994491037643000}
+2020/08/21 15:23:43 {"callers":["/Users/clarence/go/src/togethergo/blog-service/main.go: 27 main.init.0"],"level":"info","message":"hello: togergo/blog-service","time":1597994623430363000}
+2020/08/21 15:23:45 {"callers":["/Users/clarence/go/src/togethergo/blog-service/main.go: 27 main.init.0"],"level":"debug","message":"app.GenerateToken err key is of invalid type","time":1597994625904511000}
+2020/08/21 15:25:14 {"callers":["/Users/clarence/go/src/togethergo/blog-service/main.go: 27 main.init.0"],"level":"info","message":"hello: togergo/blog-service","time":1597994714864923000}
+2020/08/21 15:36:07 {"callers":["/Users/clarence/go/src/togethergo/blog-service/main.go: 27 main.init.0"],"level":"info","message":"hello: togergo/blog-service","time":1597995367314518000}
+2020/08/21 15:36:11 {"callers":["/Users/clarence/go/src/togethergo/blog-service/main.go: 27 main.init.0"],"level":"debug","message":"app.GenerateToken err key is of invalid type","time":1597995371113900000}
+2020/08/21 15:36:12 {"callers":["/Users/clarence/go/src/togethergo/blog-service/main.go: 27 main.init.0"],"level":"debug","message":"app.GenerateToken err key is of invalid type","time":1597995372670382000}
+2020/08/21 15:36:13 {"callers":["/Users/clarence/go/src/togethergo/blog-service/main.go: 27 main.init.0"],"level":"debug","message":"app.GenerateToken err key is of invalid type","time":1597995373518266000}
+2020/08/21 15:36:14 {"callers":["/Users/clarence/go/src/togethergo/blog-service/main.go: 27 main.init.0"],"level":"debug","message":"app.GenerateToken err key is of invalid type","time":1597995374268343000}
+2020/08/21 15:57:30 {"callers":["/Users/clarence/go/src/togethergo/blog-service/main.go: 27 main.init.0"],"level":"info","message":"hello: togergo/blog-service","time":1597996650769773000}
+2020/08/21 15:57:34 {"callers":["/Users/clarence/go/src/togethergo/blog-service/main.go: 27 main.init.0"],"level":"debug","message":"app.GenerateToken err key is of invalid type","time":1597996654168039000}
+2020/08/21 15:57:35 {"callers":["/Users/clarence/go/src/togethergo/blog-service/main.go: 27 main.init.0"],"level":"debug","message":"app.GenerateToken err key is of invalid type","time":1597996655284473000}
+2020/08/21 15:58:17 {"callers":["/Users/clarence/go/src/togethergo/blog-service/main.go: 27 main.init.0"],"level":"info","message":"hello: togergo/blog-service","time":1597996697708973000}
+2020/08/21 15:58:21 {"callers":["/Users/clarence/go/src/togethergo/blog-service/main.go: 27 main.init.0"],"level":"debug","message":"app.GenerateToken err key is of invalid type","time":1597996701774322000}
+2020/08/21 15:58:23 {"callers":["/Users/clarence/go/src/togethergo/blog-service/main.go: 27 main.init.0"],"level":"debug","message":"app.GenerateToken err key is of invalid type","time":1597996703262332000}
+2020/08/21 15:58:24 {"callers":["/Users/clarence/go/src/togethergo/blog-service/main.go: 27 main.init.0"],"level":"debug","message":"app.GenerateToken err key is of invalid type","time":1597996704262918000}
+2020/08/21 15:58:25 {"callers":["/Users/clarence/go/src/togethergo/blog-service/main.go: 27 main.init.0"],"level":"debug","message":"app.GenerateToken err key is of invalid type","time":1597996705011267000}
+2020/08/21 16:01:24 {"callers":["/Users/clarence/go/src/togethergo/blog-service/main.go: 27 main.init.0"],"level":"debug","message":"app.GenerateToken err key is of invalid type","time":1597996884410780000}
+2020/08/21 16:01:25 {"callers":["/Users/clarence/go/src/togethergo/blog-service/main.go: 27 main.init.0"],"level":"debug","message":"app.GenerateToken err key is of invalid type","time":1597996885264209000}
+2020/08/21 16:01:25 {"callers":["/Users/clarence/go/src/togethergo/blog-service/main.go: 27 main.init.0"],"level":"debug","message":"app.GenerateToken err key is of invalid type","time":1597996885910590000}
+2020/08/21 16:04:11 {"callers":["/Users/clarence/go/src/togethergo/blog-service/main.go: 27 main.init.0"],"level":"info","message":"hello: togergo/blog-service","time":1597997051795644000}
+2020/08/21 16:04:14 {"callers":["/Users/clarence/go/src/togethergo/blog-service/main.go: 27 main.init.0"],"level":"debug","message":"app.GenerateToken err key is of invalid type","time":1597997054731652000}
+2020/08/21 16:04:53 {"callers":["/Users/clarence/go/src/togethergo/blog-service/main.go: 27 main.init.0"],"level":"info","message":"hello: togergo/blog-service","time":1597997093510746000}
+2020/08/21 16:04:55 {"callers":["/Users/clarence/go/src/togethergo/blog-service/main.go: 27 main.init.0"],"level":"debug","message":"app.GenerateToken err key is of invalid type","time":1597997095065450000}
+2020/08/21 16:04:56 {"callers":["/Users/clarence/go/src/togethergo/blog-service/main.go: 27 main.init.0"],"level":"debug","message":"app.GenerateToken err key is of invalid type","time":1597997096297175000}
+2020/08/21 16:09:21 {"callers":["/Users/clarence/go/src/togethergo/blog-service/main.go: 27 main.init.0"],"level":"info","message":"hello: togergo/blog-service","time":1597997361604021000}
+2020/08/21 16:09:22 {"callers":["/Users/clarence/go/src/togethergo/blog-service/main.go: 27 main.init.0"],"level":"debug","message":"app.GenerateToken err key is of invalid type","time":1597997362919508000}
+2020/08/21 16:10:04 {"callers":["/Users/clarence/go/src/togethergo/blog-service/main.go: 27 main.init.0"],"level":"info","message":"hello: togergo/blog-service","time":1597997404634727000}
+2020/08/21 16:10:05 {"callers":["/Users/clarence/go/src/togethergo/blog-service/main.go: 27 main.init.0"],"level":"debug","message":"app.GenerateToken err key is of invalid type","time":1597997405661727000}
+2020/08/21 16:10:06 {"callers":["/Users/clarence/go/src/togethergo/blog-service/main.go: 27 main.init.0"],"level":"debug","message":"app.GenerateToken err key is of invalid type","time":1597997406735351000}
+2020/08/21 16:10:54 {"callers":["/Users/clarence/go/src/togethergo/blog-service/main.go: 27 main.init.0"],"level":"info","message":"hello: togergo/blog-service","time":1597997454140317000}
+2020/08/21 16:10:54 {"callers":["/Users/clarence/go/src/togethergo/blog-service/main.go: 27 main.init.0"],"level":"debug","message":"app.GenerateToken err key is of invalid type","time":1597997454454694000}
+2020/08/21 16:10:55 {"callers":["/Users/clarence/go/src/togethergo/blog-service/main.go: 27 main.init.0"],"level":"debug","message":"app.GenerateToken err key is of invalid type","time":1597997455524557000}
+2020/08/21 16:10:56 {"callers":["/Users/clarence/go/src/togethergo/blog-service/main.go: 27 main.init.0"],"level":"debug","message":"app.GenerateToken err key is of invalid type","time":1597997456398732000}
+2020/08/21 16:10:57 {"callers":["/Users/clarence/go/src/togethergo/blog-service/main.go: 27 main.init.0"],"level":"debug","message":"app.GenerateToken err key is of invalid type","time":1597997457460636000}
+2020/08/21 16:12:46 {"callers":["/Users/clarence/go/src/togethergo/blog-service/main.go: 27 main.init.0"],"level":"info","message":"hello: togergo/blog-service","time":1597997566233284000}
+2020/08/21 16:12:47 {"callers":["/Users/clarence/go/src/togethergo/blog-service/main.go: 27 main.init.0"],"level":"debug","message":"app.GenerateToken err key is of invalid type","time":1597997567459635000}
+2020/08/21 16:12:49 {"callers":["/Users/clarence/go/src/togethergo/blog-service/main.go: 27 main.init.0"],"level":"debug","message":"app.GenerateToken err key is of invalid type","time":1597997569486287000}
+2020/08/21 16:12:50 {"callers":["/Users/clarence/go/src/togethergo/blog-service/main.go: 27 main.init.0"],"level":"debug","message":"app.GenerateToken err key is of invalid type","time":1597997570398752000}
+2020/08/21 16:12:51 {"callers":["/Users/clarence/go/src/togethergo/blog-service/main.go: 27 main.init.0"],"level":"debug","message":"app.GenerateToken err key is of invalid type","time":1597997571262158000}
+2020/08/21 16:12:51 {"callers":["/Users/clarence/go/src/togethergo/blog-service/main.go: 27 main.init.0"],"level":"debug","message":"app.GenerateToken err key is of invalid type","time":1597997571936426000}
+2020/08/21 16:14:50 {"callers":["/Users/clarence/go/src/togethergo/blog-service/main.go: 27 main.init.0"],"level":"info","message":"hello: togergo/blog-service","time":1597997690106413000}
+2020/08/21 16:14:52 {"callers":["/Users/clarence/go/src/togethergo/blog-service/main.go: 27 main.init.0"],"level":"debug","message":"app.GenerateToken err key is of invalid type","time":1597997692586816000}
+2020/08/21 16:15:19 {"callers":["/Users/clarence/go/src/togethergo/blog-service/main.go: 27 main.init.0"],"level":"info","message":"hello: togergo/blog-service","time":1597997719094842000}
+2020/08/21 16:15:22 {"callers":["/Users/clarence/go/src/togethergo/blog-service/main.go: 27 main.init.0"],"level":"debug","message":"app.GenerateToken err key is of invalid type","time":1597997722380386000}
+2020/08/21 16:15:25 {"callers":["/Users/clarence/go/src/togethergo/blog-service/main.go: 27 main.init.0"],"level":"debug","message":"app.GenerateToken err key is of invalid type","time":1597997725050470000}
+2020/08/21 16:15:25 {"callers":["/Users/clarence/go/src/togethergo/blog-service/main.go: 27 main.init.0"],"level":"debug","message":"app.GenerateToken err key is of invalid type","time":1597997725786699000}
+2020/08/21 16:17:22 {"callers":["/Users/clarence/go/src/togethergo/blog-service/main.go: 27 main.init.0"],"level":"info","message":"hello: togergo/blog-service","time":1597997842878928000}
+2020/08/21 16:17:25 {"callers":["/Users/clarence/go/src/togethergo/blog-service/main.go: 27 main.init.0"],"level":"debug","message":"app.GenerateToken err key is of invalid type","time":1597997845330903000}
+2020/08/21 16:17:27 {"callers":["/Users/clarence/go/src/togethergo/blog-service/main.go: 27 main.init.0"],"level":"debug","message":"app.GenerateToken err key is of invalid type","time":1597997847061385000}
+2020/08/21 16:17:48 {"callers":["/Users/clarence/go/src/togethergo/blog-service/main.go: 27 main.init.0"],"level":"info","message":"hello: togergo/blog-service","time":1597997868714377000}
+2020/08/21 16:17:49 {"callers":["/Users/clarence/go/src/togethergo/blog-service/main.go: 27 main.init.0"],"level":"debug","message":"app.GenerateToken err key is of invalid type","time":1597997869729170000}
+2020/08/21 16:17:50 {"callers":["/Users/clarence/go/src/togethergo/blog-service/main.go: 27 main.init.0"],"level":"debug","message":"app.GenerateToken err key is of invalid type","time":1597997870960719000}
+2020/08/21 16:17:51 {"callers":["/Users/clarence/go/src/togethergo/blog-service/main.go: 27 main.init.0"],"level":"debug","message":"app.GenerateToken err key is of invalid type","time":1597997871822982000}
+2020/08/21 16:17:52 {"callers":["/Users/clarence/go/src/togethergo/blog-service/main.go: 27 main.init.0"],"level":"debug","message":"app.GenerateToken err key is of invalid type","time":1597997872710522000}
+2020/08/21 16:17:53 {"callers":["/Users/clarence/go/src/togethergo/blog-service/main.go: 27 main.init.0"],"level":"debug","message":"app.GenerateToken err key is of invalid type","time":1597997873623136000}
+2020/08/21 16:17:54 {"callers":["/Users/clarence/go/src/togethergo/blog-service/main.go: 27 main.init.0"],"level":"debug","message":"app.GenerateToken err key is of invalid type","time":1597997874498401000}
+2020/08/21 16:17:55 {"callers":["/Users/clarence/go/src/togethergo/blog-service/main.go: 27 main.init.0"],"level":"debug","message":"app.GenerateToken err key is of invalid type","time":1597997875424489000}
+2020/08/21 16:18:30 {"callers":["/Users/clarence/go/src/togethergo/blog-service/main.go: 27 main.init.0"],"level":"info","message":"hello: togergo/blog-service","time":1597997910060688000}
+2020/08/21 16:18:31 {"callers":["/Users/clarence/go/src/togethergo/blog-service/main.go: 27 main.init.0"],"level":"debug","message":"app.GenerateToken err key is of invalid type","time":1597997911319487000}
+2020/08/21 16:18:32 {"callers":["/Users/clarence/go/src/togethergo/blog-service/main.go: 27 main.init.0"],"level":"debug","message":"app.GenerateToken err key is of invalid type","time":1597997912761849000}
+2020/08/21 16:18:42 {"callers":["/Users/clarence/go/src/togethergo/blog-service/main.go: 27 main.init.0"],"level":"info","message":"hello: togergo/blog-service","time":1597997922691800000}
+2020/08/21 16:18:44 {"callers":["/Users/clarence/go/src/togethergo/blog-service/main.go: 27 main.init.0"],"level":"debug","message":"app.GenerateToken err key is of invalid type","time":1597997924628252000}
+2020/08/21 16:18:46 {"callers":["/Users/clarence/go/src/togethergo/blog-service/main.go: 27 main.init.0"],"level":"debug","message":"app.GenerateToken err key is of invalid type","time":1597997926049877000}
+2020/08/21 16:18:46 {"callers":["/Users/clarence/go/src/togethergo/blog-service/main.go: 27 main.init.0"],"level":"debug","message":"app.GenerateToken err key is of invalid type","time":1597997926949084000}
+2020/08/21 16:18:47 {"callers":["/Users/clarence/go/src/togethergo/blog-service/main.go: 27 main.init.0"],"level":"debug","message":"app.GenerateToken err key is of invalid type","time":1597997927724248000}
+2020/08/21 16:20:08 {"callers":["/Users/clarence/go/src/togethergo/blog-service/main.go: 27 main.init.0"],"level":"info","message":"hello: togergo/blog-service","time":1597998008339516000}
+2020/08/21 16:20:10 {"callers":["/Users/clarence/go/src/togethergo/blog-service/main.go: 27 main.init.0"],"level":"debug","message":"app.GenerateToken err key is of invalid type","time":1597998010756390000}
+2020/08/21 16:20:12 {"callers":["/Users/clarence/go/src/togethergo/blog-service/main.go: 27 main.init.0"],"level":"debug","message":"app.GenerateToken err key is of invalid type","time":1597998012788112000}
+2020/08/21 16:20:13 {"callers":["/Users/clarence/go/src/togethergo/blog-service/main.go: 27 main.init.0"],"level":"debug","message":"app.GenerateToken err key is of invalid type","time":1597998013725361000}
+2020/08/21 16:20:14 {"callers":["/Users/clarence/go/src/togethergo/blog-service/main.go: 27 main.init.0"],"level":"debug","message":"app.GenerateToken err key is of invalid type","time":1597998014636866000}
+2020/08/21 16:20:15 {"callers":["/Users/clarence/go/src/togethergo/blog-service/main.go: 27 main.init.0"],"level":"debug","message":"app.GenerateToken err key is of invalid type","time":1597998015526123000}
+2020/08/21 16:20:33 {"callers":["/Users/clarence/go/src/togethergo/blog-service/main.go: 27 main.init.0"],"level":"info","message":"hello: togergo/blog-service","time":1597998033159684000}
+2020/08/21 16:20:35 {"callers":["/Users/clarence/go/src/togethergo/blog-service/main.go: 27 main.init.0"],"level":"debug","message":"app.GenerateToken err key is of invalid type","time":1597998035897200000}
+2020/08/21 16:20:36 {"callers":["/Users/clarence/go/src/togethergo/blog-service/main.go: 27 main.init.0"],"level":"debug","message":"app.GenerateToken err key is of invalid type","time":1597998036898573000}
+2020/08/21 16:20:37 {"callers":["/Users/clarence/go/src/togethergo/blog-service/main.go: 27 main.init.0"],"level":"debug","message":"app.GenerateToken err key is of invalid type","time":1597998037536549000}
+2020/08/21 16:20:38 {"callers":["/Users/clarence/go/src/togethergo/blog-service/main.go: 27 main.init.0"],"level":"debug","message":"app.GenerateToken err key is of invalid type","time":1597998038160795000}
+2020/08/21 16:21:50 {"callers":["/Users/clarence/go/src/togethergo/blog-service/main.go: 27 main.init.0"],"level":"info","message":"hello: togergo/blog-service","time":1597998110200516000}
+2020/08/21 16:26:19 {"callers":["/Users/clarence/go/src/togethergo/blog-service/main.go: 27 main.init.0"],"level":"info","message":"hello: togergo/blog-service","time":1597998379484468000}
+2020/08/21 16:27:09 {"callers":["/Users/clarence/go/src/togethergo/blog-service/main.go: 27 main.init.0"],"level":"info","message":"hello: togergo/blog-service","time":1597998429945516000}

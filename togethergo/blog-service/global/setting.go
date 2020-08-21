@@ -13,4 +13,5 @@ var (
 	AppSetting      *setting.AppSettingS
 	DatabaseSetting *setting.DatabaseSettingS
 	Logger          *logger.Logger //定义一个Logger对象 便于使用
+	JWTSetting      *setting.JWTSettingS
 )
