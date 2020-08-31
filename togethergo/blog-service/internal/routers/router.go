@@ -25,12 +25,13 @@ func NewRouter() *gin.Engine {
 	r.POST("/upload/file", upload.UploadFile)
 
 	//访问静态资源
-	r.StaticFS("/static",http.Dir(global.AppSetting.UploadSavePath))
+	r.StaticFS("/static", http.Dir(global.AppSetting.UploadSavePath))
 
-	r.GET("/auth",v1.GetAuth)
-
+	r.GET("/auth", v1.GetAuth)
 
 	apiv1 := r.Group("api/v1")
+	apiv1.Use(middleware.JWT()) //某个路由分组需要使用jwt
+
 	{
 		//tags
 		apiv1.POST("/tags", tag.Create)

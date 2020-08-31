@@ -14,61 +14,58 @@ var calculateTime string
 var duration string
 
 var timeCmd = &cobra.Command{
-	Use: "time",
+	Use:   "time",
 	Short: "时间处理格式",
-	Long: "时间格式处理",
+	Long:  "时间格式处理",
 	Run: func(cmd *cobra.Command, args []string) {
 
 	},
 }
 
 var nowTimeCmd = &cobra.Command{
-	Use: "now",
+	Use:   "now",
 	Short: "获取当前时间",
-	Long: "获取当前的时间",
+	Long:  "获取当前的时间",
 	Run: func(cmd *cobra.Command, args []string) {
 		nowTime := timer.GetNowTime()
-		log.Printf("输出结果： %s, %d",nowTime.Format("2006-01-01 17:33:03"),nowTime.Unix())
+		log.Printf("输出结果： %s, %d", nowTime.Format("2006-01-02 15:04:05"), nowTime.Unix())
 	},
 }
 
 //使用预定义格式的代码  标注库time
 //t := time.Now().Format(time.RFC3339)
 
-
 var calculateTimeCmd = &cobra.Command{
-	Use: "calc",
+	Use:   "calc",
 	Short: "计算所需要的时间",
-	Long: "计算所需要的时间",
+	Long:  "计算所需要的时间",
 	Run: func(cmd *cobra.Command, args []string) {
 		var currentTimer time.Time
 		var layout = "2006-01-02 15:04:05" //注意 这种格式化时间 必须写这个值 其他值无效
 		// "2020-01-01 13:04:04" 写成这种会出错
 
-
 		if calculateTime == "" {
 			currentTimer = timer.GetNowTime()
 		} else {
 			var err error
-			if !strings.Contains(calculateTime," ") {
+			if !strings.Contains(calculateTime, " ") {
 				layout = "2007-09-08"
 			}
 
-			currentTimer,err = time.Parse(layout,calculateTime)
+			currentTimer, err = time.Parse(layout, calculateTime)
 			if err != nil {
-				t,_ := strconv.Atoi(calculateTime)
-				currentTimer = time.Unix(int64(t),0)
+				t, _ := strconv.Atoi(calculateTime)
+				currentTimer = time.Unix(int64(t), 0)
 			}
 		}
 
-
-		calculateTime,err := timer.GetCalculateTime(currentTimer,duration)
+		calculateTime, err := timer.GetCalculateTime(currentTimer, duration)
 		if err != nil {
-			log.Fatalf("timer.GetcalculateTime err: %v",err)
+			log.Fatalf("timer.GetcalculateTime err: %v", err)
 		}
 
 		fmt.Println(calculateTime)
-		log.Printf("输出结果： %s, %d",calculateTime.Format(layout),calculateTime.Unix())
+		log.Printf("输出结果： %s, %d", calculateTime.Format(layout), calculateTime.Unix())
 
 		//time.Format 格式化  还有 time.Parse 请注意 可能会导致时区问题 因此使用 time.ParseInLocation(layout,inputTime,location)
 		//所有解析和格式化的最好都带上时区。 保障万无一失 同时需要注意运维部署的相关时区
@@ -76,14 +73,13 @@ var calculateTimeCmd = &cobra.Command{
 	},
 }
 
-func init()  {
+func init() {
 	timeCmd.AddCommand(nowTimeCmd)
 	timeCmd.AddCommand(calculateTimeCmd)
 
-	calculateTimeCmd.Flags().StringVarP(&calculateTime,"calculate","c","","需要计算的时间，有效单位为时间戳或者格式化后的时间")
-	calculateTimeCmd.Flags().StringVarP(&duration,"duration","d","","持续时间，有效单位为'ns','us','ms','s','m','h'")
+	calculateTimeCmd.Flags().StringVarP(&calculateTime, "calculate", "c", "", "需要计算的时间，有效单位为时间戳或者格式化后的时间")
+	calculateTimeCmd.Flags().StringVarP(&duration, "duration", "d", "", "持续时间，有效单位为'ns','us','ms','s','m','h'")
 }
-
 
 /*
 ~/go/src/togethergo/tour master*
@@ -102,8 +98,7 @@ func init()  {
 
 ~/go/src/togethergo/tour master*
 
- */
-
+*/
 
 //时间相关的额需要注意失去  Local  UTC
 //	time.LoadLocation()
